@@ -1,15 +1,277 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
+      "tab-layout",
+      "slider-layout#home",
       "rich-text"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
+  "tab-layout": {
+    "children": [
+      "tab-list",
+      "tab-content"
+    ]
+  },
+  "tab-list": {
+    "children": [
+      "tab-list.item#1",
+      "tab-list.item#2",
+      "tab-list.item#3",
+      "tab-list.item#4",
+      "tab-list.item#5",
+      "tab-list.item#6",
+      "tab-list.item#7",
+      "tab-list.item#8",
+      "tab-list.item#9",
+      "tab-list.item#10"
+    ]
+  },
+  "tab-content": {
+    "children": [
+      "tab-content.item#1",
+      "tab-content.item#2",
+      "tab-content.item#3",
+      "tab-content.item#4",
+      "tab-content.item#5",
+      "tab-content.item#6",
+      "tab-content.item#7",
+      "tab-content.item#8",
+      "tab-content.item#9",
+      "tab-content.item#10"
+    ]
+  },
+  "tab-list.item#1": {
+    "props": {
+      "tabId": "promocao",
+      "label": "PROMOÇÃO",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#2": {
+    "props": {
+      "tabId": "corinthians",
+      "label": "CORINTHIANS"
+    }
+  },
+  "tab-list.item#3": {
+    "props": {
+      "tabId": "palmeiras",
+      "label": "PALMEIRAS"
+    }
+  },
+  "tab-list.item#4": {
+    "props": {
+      "tabId": "signos",
+      "label": "SIGNOS"
+    }
+  },
+  "tab-list.item#5": {
+    "props": {
+      "tabId": "divertidos",
+      "label": "DIVERTIDOS"
+    }
+  },
+  "tab-list.item#6": {
+    "props": {
+      "tabId": "7maravilhas",
+      "label": "7 MARAVILHAS"
+    }
+  },
+  "tab-list.item#7": {
+    "props": {
+      "tabId": "guerreiros",
+      "label": "GUERREIROS"
+    }
+  },
+  "tab-list.item#8": {
+    "props": {
+      "tabId": "album1",
+      "label": "ÁLBUM 1"
+    }
+  },
+  "tab-list.item#9": {
+    "props": {
+      "tabId": "album2",
+      "label": "ÁLBUM 2"
+    }
+  },
+  "tab-list.item#10": {
+    "props": {
+      "tabId": "album3",
+      "label": "ÁLBUM 3"
+    }
+  },
+
+  "tab-content.item#1": {
+    "children": [
+      "rich-text#1"
+    ],
+    "props": {
+      "tabId": "promocao"
+    }
+  },
+  "tab-content.item#2": {
+    "children": [
+      "rich-text#2"
+    ],
+    "props": {
+      "tabId": "corinthians"
+    }
+  },
+  "tab-content.item#3": {
+    "children": [
+      "rich-text#3"
+    ],
+    "props": {
+      "tabId": "palmeiras"
+    }
+  },
+  "tab-content.item#4": {
+    "children": [
+      "rich-text#4"
+    ],
+    "props": {
+      "tabId": "signos"
+    }
+  },
+  "tab-content.item#5": {
+    "children": [
+      "rich-text#5"
+    ],
+    "props": {
+      "tabId": "divertidos"
+    }
+  },
+  "tab-content.item#6": {
+    "children": [
+      "rich-text#6"
+    ],
+    "props": {
+      "tabId": "7maravilhas"
+    }
+  },
+  "tab-content.item#7": {
+    "children": [
+      "rich-text#7"
+    ],
+    "props": {
+      "tabId": "guerreiros"
+    }
+  },
+  "tab-content.item#8": {
+    "children": [
+      "rich-text#8"
+    ],
+    "props": {
+      "tabId": "album1"
+    }
+  },
+  "tab-content.item#9": {
+    "children": [
+      "rich-text#9"
+    ],
+    "props": {
+      "tabId": "album2"
+    }
+  },
+  "tab-content.item#10": {
+    "children": [
+      "rich-text#10"
+    ],
+    "props": {
+      "tabId": "album3"
+    }
+  },
+  "rich-text#1": {
+    "props": {
+      "text": "",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#2": {
+    "props": {
+
+    }
+  },
+
+  "rich-text#3": {
+    "props": {
+
+    }
+  },
+  "rich-text#4": {
+    "props": {
+
+    }
+  },
+
+  "rich-text#5": {
+    "props": {
+
+    }
+  },
+  "rich-text#6": {
+    "props": {
+
+    }
+  },
+  "rich-text#7": {
+    "props": {
+
+    }
+  },
+  "rich-text#8": {
+    "props": {
+
+    }
+  },
+  "rich-text#9": {
+    "props": {
+
+    }
+  },
+  "rich-text#10": {
+    "props": {
+
+    }
+  },
+  "rich-text": {
+    "props": {
+      "text": "você está vendo provas de ",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-5",
+      "blockClass": "text-home"
     }
+  },
+  "slider-layout#home": {
+    "children": [
+      "image#brand1",
+      "image#brand2"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      }
+    }
+  },
+  "image#brand1": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210821%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210821T231042Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=51879d9fe4046f81eb24a69bf3c8b42981ee25879b647966e2b572d70a37125e"
+    }
+  },
+  "image#brand2": {
+    "props": {
+    "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e?response-content-disposition=inline%3B%20filename%3D%22W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png%22%3B%20filename%2A%3DUTF-8%27%27W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210821%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210821T231117Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=3dd857892d27276edf846eb0d33e5a2598a475a57ad9383fc59aa7a4771f11a2" }
   }
 }
