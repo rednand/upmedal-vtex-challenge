@@ -1,4 +1,4 @@
-#Hiring Coders - Desafio #3
+# Hiring Coders - Desafio #3
 
 O desafio era o de fazer um layout parecido com o da pagina UpMedal utilizando VTEX IO.
 
